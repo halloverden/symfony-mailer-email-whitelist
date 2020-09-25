@@ -1,0 +1,23 @@
+{
+    "name": "halloverden/symfony-mailer-email-whitelist",
+    "description": "EnvelopeListener for symfony mailer that enables whitelisting of emails",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Roar Furunes",
+            "email": "tom.roar@halloverden.no"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.3",
+        "symfony/mailer": "^4.4.13|^5.1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "HalloVerden\\EmailWhitelist\\": "src"
+        }
+    }
+}
