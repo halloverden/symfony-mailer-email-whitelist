@@ -3,7 +3,7 @@ EnvelopeListener for symfony mailer that enables whitelisting of emails
 
 ## Install
 
-`composer require halloverden/symfony-mailer-whitelist`
+`composer require halloverden/symfony-mailer-email-whitelist`
 
 ## Usage
 
